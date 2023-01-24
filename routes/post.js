@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 dotenv.config();
 
 const router = express.Router();
